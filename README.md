@@ -73,4 +73,6 @@ html 프로그래밍도 가입할때의 것을 복사해서 일부만 수정했�
 <img src="https://user-images.githubusercontent.com/99372311/158548194-7193244d-d3eb-4219-954f-9a1002927a55.jpg" style="width:50%"><br>
 수정 화면은 이렇고 본인은 dark4의 본인확인 답변만 바꾸도록 하겠다. 본인 닉네임으로 찾기로 했는데 엉뚱하게 입력하면 나중에 곤란해지기 때문이다.<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158549673-e545989c-6898-4261-80e7-3e1a75762e67.jpg" style="width:50%"><br>
+본인확인 답변 수정 전<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158549812-b66261af-0e86-41a9-9a8f-0ec3fba5be25.jpg" style="width:50%"><br>
+본인확인  수정 후<br>
