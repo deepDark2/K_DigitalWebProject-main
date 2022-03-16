@@ -93,17 +93,4 @@ class BoardView(View):
         except:
             return redirect('/board/' + str(pk) + '/edit/' + str(pk))
 
-    @request_mapping("/<int:pk>/vote/<int:pk2>", method="get")
-    def vote(self, request, pk, pk2):
-        userid = request.session['sessionid'];
-        try:
-            Voter.objects.filter(reviewid=pk);
-            if Voter.objects.filter(memberid = userid):
-                return render(request, 'recommendfail.html');
-            else:
-                pass;
-        except:
-            Voter(reviewid=pk, memberid=userid, recommend=1).save();
-            return redirect('/board/' + str(pk))
-
 
