@@ -46,7 +46,10 @@ https://github.com/Jokwanhee/K_DigitalWebProject 의 README.md참조
 
 각 항목들은 기입하지 않거나 지정된 글자 수 이내로 기입할 시 경고가 표시되도록 조치를 취하였고 <br>
 화면 상단의 아이콘은 부트스트랩 양식에서 아이콘 부분만 따와서 상황에 맞게 수정해주었다. 이는 후술할 다른 페이지에서도 적용했다.<br>
-회원 가입이 완료되면 가입 완료했으니 로그인 해달라는 알림창과 함께 홈페이지로 이동하게 된다.<br><br>
+회원 가입이 완료되면 가입 완료했으니 로그인 해달라는 알림창과 함께 홈페이지로 이동하게 된다.<br>
+가입한 회원의 정보는 데이터베이스에 저장이 된다.<br>
+
+<img src="https://user-images.githubusercontent.com/99372311/158542768-fedb8071-4897-4dd9-b625-5ddb5f1ccbde.jpg" style="width:50%">
 
 이제 로그인을 할 차례다.Login 버튼을 눌러 해당 화면으로 이동한다.<br>
 <img src="https://user-images.githubusercontent.com/99372311/158539239-c339e4b5-6870-40ce-91fa-8a8765204cd5.jpg" style="width:50%"><br>
@@ -56,4 +59,11 @@ sessionid가 저장되면 사이트 메뉴의 User 버튼이 바뀌고 앞서 �
 비밀번호 찾기 기능까지 구현했고 이는 나중에 후술하기로 한다.<br><br>
 
 로그인 성공시 드롭다운 메뉴가 사용자 ID, Logout으로 바뀌는데 로그아웃을 선택하면 sessionid값을 삭제하여 말 그대로 로그아웃을 하게 된다.<br>
-그리고 홈페이지로 이동. 사용자ID를 클릭시 사용자가 가입시 입력했던 정보들을 열람하게되며 여기서 탈퇴와 정보 수정이 가능하다.<br>
+그리고 홈페이지로 이동. 사용자ID를 클릭시 사용자가 가입 할 때 입력했던 정보들을 열람하게되며 여기서 탈퇴와 정보 수정이 가능하다.<br><br>
+탈퇴버튼을 누르면 먼저 sessionid를 삭제해 로그아웃을 한 다음 해당 아이디를 데이터베이스에서 검색해 해당하는 요소를 전부 삭제하게 된다.<br>
+즉 회원 정보를 모두 삭제한다.<br>
+dark4로 접속해 회원 탈퇴를 해 보겠다. 우선 회원 정보로 들어간다.<br>
+<img src="https://user-images.githubusercontent.com/99372311/158544667-ff3baea8-6bbe-4ca7-9be4-243a2aa2ef8b.jpg" style="width:50%">
+<br>여기서 회원 탈퇴를 누르면<br><br>
+<img src="https://user-images.githubusercontent.com/99372311/158544745-2f342788-27a1-4467-9008-5852e09636e1.jpg" style="width:50%"><br>
+명단들 중 dark4 아이디에 해당하는 행이 사라졌음을 알수있다.
