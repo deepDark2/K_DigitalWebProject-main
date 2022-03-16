@@ -32,3 +32,10 @@ https://github.com/Jokwanhee/K_DigitalWebProject 의 README.md참조
 
 홈페이지 상단 내비게이션 메뉴에 User 드롭다운 버튼을 만들고 로그인 여부에 따라 드롭다운 메뉴를 구성. <br>
 <img src="https://user-images.githubusercontent.com/99372311/158532611-7e0af2cb-f13c-40cd-a8ce-ad0b611b8e62.jpg" style="width:50%">
+
+|로그인 전|로그인 후|
+|:-:|:-:|
+![로그인전](https://user-images.githubusercontent.com/99372311/158534170-3242affa-0950-4599-9530-7093b686f144.jpg)|![로그인 후](https://user-images.githubusercontent.com/99372311/158534264-7a6ac49a-686f-4fff-91b6-85da96d22705.jpg)|<br>
+
+
+로그인 후 메뉴를 확인하려면 우선 회원가입을 진행해야 한다.<br>
