@@ -29,6 +29,7 @@ https://github.com/Jokwanhee/K_DigitalWebProject 의 README.md참조
 **본인이 했던 작업**
 - 웹 페이지 회원가입 및 로그인 기능 구현
 - 로그인 시 회원 정보 수정 및 탈퇴 기능 구현
+- 비밀번호 찾기 기능 구현
 
 홈페이지 상단 내비게이션 메뉴에 User 드롭다운 버튼을 만들고 로그인 여부에 따라 드롭다운 메뉴를 구성. <br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158532611-7e0af2cb-f13c-40cd-a8ce-ad0b611b8e62.jpg" style="width:50%">
@@ -76,3 +77,12 @@ html 프로그래밍도 가입할때의 것을 복사해서 일부만 수정했�
 본인확인 답변 수정 전<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158549812-b66261af-0e86-41a9-9a8f-0ec3fba5be25.jpg" style="width:50%"><br>
 본인확인  수정 후<br>
+<br>문제가 발샹했다. 우리의 dark4가 비밀번호를 잊어버렸다.<br>
+이를 대비해 아까 말했던 비밀번호 찾기를 이용하고자 한다.<br>
+<img src="https://user-images.githubusercontent.com/99372311/158551418-28a3363d-cdd5-4600-968e-c6e045c6cb22.jpg" style="width:50%"><br>
+클릭시 비번찾기 페이지로 이동을 한다. 우선 ID를 확인해 데이터베이스에 ID가 존재하면 다음 페이지로 이동한다.<br>
+<img src="https://user-images.githubusercontent.com/99372311/158552684-5c8acad3-cb54-464d-b7b5-d5bacbbcc2e6.jpg" style="width:50%"><br>
+다음 페이지에서 ID마다 설정했던 질문에 따라 답변을 입력해준다.<br>
+<img src="https://user-images.githubusercontent.com/99372311/158553046-55b44ac3-4f9d-4c44-84a8-c66fa5c53057.jpg" style="width:50%"><br>
+위와같이 정확이 정보를 입력해주면 다음 화면과 같이 본인 비밀번호를 조회할 수 있게 된다.
+<img src="https://user-images.githubusercontent.com/99372311/158553560-81692215-0a9b-475b-969c-d16c53808301.jpg" style="width:50%"><br>
