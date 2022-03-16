@@ -1,5 +1,6 @@
-# &#128007; K-Digital-Web 프로젝트
-**영화 소개 및 평점 부여 사이트 제작**
+#K-Digital-Web 프로젝트
+**제작 목적**
+영화 소개 및 평점 부여 사이트 제작
 
 - **부트스트랩 템플릿**
 https://startbootstrap.com/previews/modern-business <br>
