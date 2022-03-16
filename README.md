@@ -66,4 +66,11 @@ dark4로 접속해 회원 탈퇴를 해 보겠다. 우선 회원 정보로 들�
 <img src="https://user-images.githubusercontent.com/99372311/158544667-ff3baea8-6bbe-4ca7-9be4-243a2aa2ef8b.jpg" style="width:50%">
 <br>여기서 회원 탈퇴를 누르면<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158544745-2f342788-27a1-4467-9008-5852e09636e1.jpg" style="width:50%"><br>
-명단들 중 dark4 아이디에 해당하는 행이 사라졌음을 알수있다.
+명단들 중 dark4 아이디에 해당하는 행이 사라졌음을 알수있다.<br><br>
+다시 회원가입을 해서 dark4를 재생성한 후 이번엔 정보를 바꿔보겠다.<br>
+정보 수정 매커니즘은 가입할때랑 거의 똑같다. 단지 ID의 수정이 불가능하고 이미 있던 데이터에 값 덮어쓴다는 점만 다를 뿐이다.<br>
+html 프로그래밍도 가입할때의 것을 복사해서 일부만 수정했으며 굳이 다른점을 더 찾자면 아이콘과 버튼 이름이 바뀌었다는 점 정도이다.<br><br>
+<img src="https://user-images.githubusercontent.com/99372311/158548194-7193244d-d3eb-4219-954f-9a1002927a55.jpg" style="width:50%"><br>
+수정 화면은 이렇고 본인은 dark4의 본인확인 답변만 바꾸도록 하겠다. 본인 닉네임으로 찾기로 했는데 엉뚱하게 입력하면 나중에 곤란해지기 때문이다.<br><br>
+<img src="https://user-images.githubusercontent.com/99372311/158549673-e545989c-6898-4261-80e7-3e1a75762e67.jpg" style="width:50%"><br>
+<img src="https://user-images.githubusercontent.com/99372311/158549812-b66261af-0e86-41a9-9a8f-0ec3fba5be25.jpg" style="width:50%"><br>
