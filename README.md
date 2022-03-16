@@ -49,3 +49,11 @@ https://github.com/Jokwanhee/K_DigitalWebProject 의 README.md참조
 회원 가입이 완료되면 가입 완료했으니 로그인 해달라는 알림창과 함께 홈페이지로 이동하게 된다.<br><br>
 
 이제 로그인을 할 차례다.Login 버튼을 눌러 해당 화면으로 이동한다.<br>
+<img src="https://user-images.githubusercontent.com/99372311/158539239-c339e4b5-6870-40ce-91fa-8a8765204cd5.jpg" style="width:50%"><br>
+아이콘은 열쇠모양으로 바꿔주었고 ID랑 비밀번호를 입력할 수 있는 양식 을 만들었다.<br>
+여기서 로그인 실패시 알림창이 뜨고 성공시 해당 ID를 django에서 제공하는 sessionid에 저장한 뒤 홈페이지로 이동한다.<br><br>
+sessionid가 저장되면 사이트 메뉴의 User 버튼이 바뀌고 앞서 말했듯이 드롭다운 메뉴가 바뀐다.<br>
+비밀번호 찾기 기능까지 구현했고 이는 나중에 후술하기로 한다.<br><br>
+
+로그인 성공시 드롭다운 메뉴가 사용자 ID, Logout으로 바뀌는데 로그아웃을 선택하면 sessionid값을 삭제하여 말 그대로 로그아웃을 하게 된다.<br>
+그리고 홈페이지로 이동. 사용자ID를 클릭시 사용자가 가입시 입력했던 정보들을 열람하게되며 여기서 탈퇴와 정보 수정이 가능하다.<br>
