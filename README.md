@@ -86,3 +86,5 @@ html 프로그래밍도 가입할때의 것을 복사해서 일부만 수정했�
 <img src="https://user-images.githubusercontent.com/99372311/158553046-55b44ac3-4f9d-4c44-84a8-c66fa5c53057.jpg" style="width:50%"><br>
 위와같이 정확이 정보를 입력해주면 다음 화면과 같이 본인 비밀번호를 조회할 수 있게 된다.
 <img src="https://user-images.githubusercontent.com/99372311/158553560-81692215-0a9b-475b-969c-d16c53808301.jpg" style="width:50%"><br>
+만약 틀린 정보를 입력시 경고창과 함께 ID확인 화면으로 되돌아오게 된다.<br>
+본인이 기여한 부분은 여기까지이며 팀에 도움이 되었으면 좋겠다.<br>
