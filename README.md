@@ -80,11 +80,12 @@ html 프로그래밍도 가입할때의 것을 복사해서 일부만 수정했�
 <br>문제가 발생했다. 우리의 dark4가 비밀번호를 잊어버렸다.<br>
 이를 대비해 아까 말했던 비밀번호 찾기를 이용하고자 한다.<br>
 <img src="https://user-images.githubusercontent.com/99372311/158551418-28a3363d-cdd5-4600-968e-c6e045c6cb22.jpg" style="width:50%"><br>
-클릭시 비번찾기 페이지로 이동을 한다. 우선 ID를 확인해 데이터베이스에 ID가 존재하면 다음 페이지로 이동한다.<br>
+클릭시 비번찾기 페이지로 이동을 한다.<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158552684-5c8acad3-cb54-464d-b7b5-d5bacbbcc2e6.jpg" style="width:50%"><br>
-다음 페이지에서 ID마다 설정했던 질문에 따라 답변을 입력해준다.<br>
+ 우선 ID를 확인해 데이터베이스에 ID가 존재하면 다음 페이지로 이동한다.<br>
+다음 페이지에서 ID마다 설정했던 질문에 따라 답변을 입력해준다.<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158553046-55b44ac3-4f9d-4c44-84a8-c66fa5c53057.jpg" style="width:50%"><br>
-여기서 정확이 정보를 입력해주면 다음 화면과 같이 본인 비밀번호를 조회할 수 있게 된다.
+여기서 정확이 정보를 입력해주면 다음 화면과 같이 본인 비밀번호를 조회할 수 있게 된다.<br><br>
 <img src="https://user-images.githubusercontent.com/99372311/158553560-81692215-0a9b-475b-969c-d16c53808301.jpg" style="width:50%"><br>
 만약 틀린 정보를 입력시 경고창과 함께 ID확인 화면으로 되돌아오게 된다.<br>
 본인이 기여한 부분은 여기까지이며 팀에 도움이 되었으면 좋겠다.<br>
