@@ -30,4 +30,5 @@ https://github.com/Jokwanhee/K_DigitalWebProject 의 README.md참조
 - 웹 페이지 회원가입 및 로그인 기능 구현
 - 로그인 시 회원 정보 수정 및 탈퇴 기능 구현
 
-홈페이지 상단 내비게이션 메뉴에 User 드롭다운 버튼을 만들고 로그인 여부에 따라 드롭다운 메뉴를 구성. 
+홈페이지 상단 내비게이션 메뉴에 User 드롭다운 버튼을 만들고 로그인 여부에 따라 드롭다운 메뉴를 구성. <br>
+<img src="https://user-images.githubusercontent.com/99372311/158532611-7e0af2cb-f13c-40cd-a8ce-ad0b611b8e62.jpg" style="width:50%">
